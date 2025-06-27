@@ -34,7 +34,7 @@ const projects = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion"],
     image: "/public/portfolio.jpeg",
     githubUrl: "https://github.com/Kasiajay553/Portfolio", // change if needed
-    liveUrl: "https://kasiajay.netlify.app" // change if different
+    liveUrl: "https://portfolio-liart-nine-54.vercel.app/" // change if different
   }
 
 
