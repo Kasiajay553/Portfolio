@@ -7,7 +7,7 @@ const projects = [
     title: "ClearX – Expiry-Based E-Commerce Platform",
     description: "Designed and developed a user-friendly e-commerce platform for buying and selling near-expiry products. Focused on intuitive UI/UX with accessible layouts, responsive design, and smooth user flows. Implemented features like product search, filters, and seller dashboards to enhance usability and reduce product waste.",
     technologies: ["HTML", "CSS", "JavaScript", "UI/UX Design"],
-    image: "/public/E-commerce.jpeg",
+    image: "/E-commerce.jpeg",
     githubUrl: "https://github.com/Kasiajay553/Clearx",
     liveUrl: " https://kasiajay553.github.io/Clearx/"
   },
@@ -15,7 +15,7 @@ const projects = [
     title: "Face Recognition System",
     description: "Built a real-time face recognition system using OpenCV and the face_recognition library. Enabled automatic user identification via webcam feed with face encoding and matching. Useful for security and attendance applications.",
     technologies: ["Python", "OpenCV", "Machine Learning"],
-    image: "/public/face.jpeg",
+    image: "/face.jpeg",
     githubUrl: "https://github.com/Kasiajay553/face_recognition_project",
     liveUrl: "https://github.com/Kasiajay553/face_recognition_project"
   },
@@ -23,7 +23,7 @@ const projects = [
     title: "Child Therapy – Mental Wellness Platform",
     description: "A full-stack mental wellness platform to connect children with licensed therapists. Includes secure authentication, session bookings, real-time chat, and therapist dashboards. Prioritized accessibility, emotional tone, and privacy using JWT and animations with Framer Motion.",
     technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JWT"],
-    image: "/public/childtherapy.jpeg",
+    image: "/childtherapy.jpeg",
     githubUrl: "https://github.com/Kasiajay553/FullStackProject",
     liveUrl: "https://vignanchildthearpy.netlify.app/"
   },
@@ -32,7 +32,7 @@ const projects = [
     description:
       "Built a fully responsive and modern personal portfolio using React, TypeScript, Tailwind CSS, and Framer Motion. Showcases projects, skills, education, and achievements in a visually appealing layout with smooth scroll, reusable components, and animations.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion"],
-    image: "/public/portfolio.jpeg",
+    image: "/portfolio.jpeg",
     githubUrl: "https://github.com/Kasiajay553/Portfolio", // change if needed
     liveUrl: "https://portfolio-liart-nine-54.vercel.app/" // change if different
   }
