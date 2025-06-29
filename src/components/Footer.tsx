@@ -83,15 +83,7 @@ const Footer: React.FC = () => {
           >
             Made with <Heart size={16} className="text-red-500 mx-1" /> by T.K.N.V.Ajay Kumar
           </motion.p>
-          
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-            className="text-gray-500 text-sm mt-4 md:mt-0"
-          >
-            © 2024 All rights reserved.
-          </motion.p>
+        
         </div>
       </div>
 
