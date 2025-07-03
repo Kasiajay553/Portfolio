@@ -59,7 +59,7 @@ const Navbar: React.FC = () => {
           
           <div className="hidden md:flex items-center space-x-4">
             <motion.a
-              href="/resume.pdf"
+              href="/KASI_AJAY_RESUME.pdf"
               download
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
