@@ -61,7 +61,7 @@ const AboutSection: React.FC = () => {
             <div className="pt-6">
               <motion.a
                 href="/resume.pdf"
-                download="Ajay_Kumar_Resume.pdf"
+                download="AJAY_RESUME.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors"
