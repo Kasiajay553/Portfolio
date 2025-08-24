@@ -1,7 +1,7 @@
 
 # 💼 Portfolio
 
-**Live Demo:** [portfolio-liart-nine-54.vercel.app](https://portfolio-liart-nine-54.vercel.app)
+**Live Demo:** [https://portfolio-git-master-kasi-ajays-projects.vercel.app/](https://portfolio-git-master-kasi-ajays-projects.vercel.app/)
 
 This is a modern, fully responsive personal portfolio website created using React, TypeScript, Vite, and Tailwind CSS. It showcases my skills, projects, achievements, experience, and allows recruiters or collaborators to connect with me easily.
 
