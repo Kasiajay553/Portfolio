@@ -60,7 +60,7 @@ const AboutSection: React.FC = () => {
 
             <div className="pt-6">
               <motion.a
-                href="/resume.pdf"
+                href="/AJAY_RESUME.pdf"
                 download="Ajay_Kumar_Resume.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
