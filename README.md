@@ -10,7 +10,6 @@ This is a modern, fully responsive personal portfolio website created using Reac
 ## 📸 Preview
 
 ![Portfolio Screenshot](public/portfolio.jpeg)
-![image](https://github.com/user-attachments/assets/45dd5a6a-cf67-4fec-b454-c49fabc64402)
 
 ---
 
