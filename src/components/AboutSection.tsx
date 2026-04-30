@@ -25,7 +25,7 @@ const AboutSection: React.FC = () => {
             <div className="relative">
               <div className="w-80 h-80 mx-auto bg-gradient-to-br from-blue-500 to-purple-600 rounded-full flex items-center justify-center overflow-hidden">
                 <img
-                  src="/kasi.jpg"
+                  src="/mypicture.PNG"
                   alt="My Profile"
                   className="w-72 h-72 rounded-full object-cover border-4 border-gray-800"
                 />
@@ -60,7 +60,7 @@ const AboutSection: React.FC = () => {
 
             <div className="pt-6">
               <motion.a
-                href="/AJAY_RESUME.pdf"
+                href="/java_react.pdf"
                 download="AJAY_RESUME.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
