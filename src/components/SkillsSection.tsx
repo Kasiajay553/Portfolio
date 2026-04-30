@@ -4,15 +4,12 @@ import { motion } from 'framer-motion';
 // FA Icons
 import {
   FaCode, FaDatabase, FaTools, FaNetworkWired, FaLaptopCode,
-  FaGithub, FaDocker,
-  FaCloud
+  FaGithub
 } from 'react-icons/fa';
 
 // SI, DI, TB Icons
 import {
-  SiJavascript, SiTypescript, SiHtml5, SiCss3, SiTailwindcss, SiReact,
-  SiNextdotjs, SiNodedotjs, SiMysql, SiMongodb, SiVercel,
-   SiGit
+  SiJavascript, SiHtml5, SiCss3, SiReact, SiMysql, SiGit, SiSpringboot, SiFigma, SiIntellijidea
 } from 'react-icons/si';
 
 import { TbBrandCpp } from 'react-icons/tb';
@@ -23,53 +20,53 @@ const skillData = [
     title: "Programming Languages",
     icon: <FaCode className="text-blue-400 text-2xl" />,
     skills: [
+      { name: "Core Java", icon: <DiJava className="text-red-400" /> },
       { name: "C++", icon: <TbBrandCpp className="text-blue-500" /> },
-      { name: "Python", icon: <DiPython className="text-yellow-300" /> },
-      { name: "Java", icon: <DiJava className="text-red-400" /> },
       { name: "JavaScript", icon: <SiJavascript className="text-yellow-400" /> },
-      { name: "TypeScript", icon: <SiTypescript className="text-blue-500" /> }
+      { name: "Python", icon: <DiPython className="text-yellow-300" /> }
     ]
   },
   {
-    title: "Frontend Technologies",
+    title: "Frameworks & Web Tech",
     icon: <FaLaptopCode className="text-pink-400 text-2xl" />,
     skills: [
-      { name: "HTML", icon: <SiHtml5 className="text-orange-500" /> },
-      { name: "CSS", icon: <SiCss3 className="text-blue-500" /> },
-      { name: "Tailwind CSS", icon: <SiTailwindcss className="text-teal-400" /> },
-      { name: "React", icon: <SiReact className="text-cyan-400" /> },
-      { name: "Next.js", icon: <SiNextdotjs className="text-white" /> }
+      { name: "Spring Boot", icon: <SiSpringboot className="text-green-500" /> },
+      { name: "React.js", icon: <SiReact className="text-cyan-400" /> },
+      { name: "HTML5", icon: <SiHtml5 className="text-orange-500" /> },
+      { name: "CSS3", icon: <SiCss3 className="text-blue-500" /> },
+      { name: "REST APIs", icon: <span className="text-white">🔗</span> }
     ]
   },
   {
-    title: "Backend & Databases",
+    title: "Database & Tools",
     icon: <FaDatabase className="text-green-400 text-2xl" />,
     skills: [
-      { name: "Node.js", icon: <SiNodedotjs className="text-green-400" /> },
-      { name: "Express.js", icon: <span className="text-white text-lg">E</span> },
+      { name: "SQL", icon: <span className="text-white">🗄️</span> },
       { name: "MySQL", icon: <SiMysql className="text-blue-300" /> },
-      { name: "MongoDB", icon: <SiMongodb className="text-green-500" /> },
+      { name: "Git", icon: <SiGit className="text-orange-600" /> },
+      { name: "GitHub", icon: <FaGithub className="text-white" /> },
+      { name: "IntelliJ IDEA", icon: <SiIntellijidea className="text-blue-500" /> },
       { name: "ServiceNow", icon: <FaTools className="text-gray-300" /> }
     ]
   },
-  {
-    title: "DevOps & Tools",
-    icon: <FaTools className="text-yellow-400 text-2xl" />,
-    skills: [
-      { name: "Git", icon: <SiGit className="text-orange-600" /> },
-      { name: "GitHub", icon: <FaGithub className="text-white" /> },
-      { name: "Vercel", icon: <SiVercel className="text-white" /> },
-      { name: "AWS", icon: <FaCloud className="text-yellow-300" /> },
-      { name: "Docker", icon: <FaDocker className="text-blue-400" /> }
-    ]
-  },
-  {
-    title: "Technical Concepts",
+  /*{
+    title: "Core Java Concepts",
     icon: <FaNetworkWired className="text-purple-400 text-2xl" />,
     skills: [
-      { name: "DBMS", icon: <span className="text-white">🗄️</span> },
-      { name: "Computer Networks", icon: <span className="text-white">🌐</span> },
-      { name: "REST APIs", icon: <span className="text-white">🔗</span> }
+      { name: "OOP", icon: <span className="text-white">⚙️</span> },
+      { name: "Collections Framework", icon: <span className="text-white">📚</span> },
+      { name: "Multithreading", icon: <span className="text-white">🔄</span> },
+      { name: "Exception Handling", icon: <span className="text-white">⚠️</span> }
+    ]
+  },*/
+  {
+    title: "UI/UX & Soft Skills",
+    icon: <FaTools className="text-yellow-400 text-2xl" />,
+    skills: [
+      { name: "Figma", icon: <SiFigma className="text-pink-400" /> },
+      { name: "Critical Thinking", icon: <span className="text-white">💡</span> },
+      { name: "Data-Driven Decisions", icon: <span className="text-white">📊</span> },
+      { name: "Project Ownership", icon: <span className="text-white">🚀</span> }
     ]
   }
 ];

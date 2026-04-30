@@ -4,40 +4,37 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: "ClearX – Expiry-Based E-Commerce Platform",
-    description: "Designed and developed a user-friendly e-commerce platform for buying and selling near-expiry products. Focused on intuitive UI/UX with accessible layouts, responsive design, and smooth user flows. Implemented features like product search, filters, and seller dashboards to enhance usability and reduce product waste.",
-    technologies: ["HTML", "CSS", "JavaScript", "UI/UX Design"],
+    title: "CLEARX - Ecommerce Platform",
+    description: "A comprehensive ecommerce platform engineered to address the $18B+ retail food waste challenge. The system seamlessly connects retailers, customers, and delivery agents to optimize resource allocation and minimize waste.\n\n• Developed scalable core business logic utilizing object-oriented programming principles to manage multi-user workflows.\n• Designed and implemented responsive, interactive user interface components for an intuitive user experience.\n• Integrated front-end interfaces with backend processing to ensure efficient and reliable data management.",
+    technologies: ["Core Java", "React.js", "CSS3", "HTML5"],
     image: "/E-commerce.jpeg",
     githubUrl: "https://github.com/Kasiajay553/Clearx",
-    liveUrl: " https://kasiajay553.github.io/Clearx/"
+    liveUrl: "https://kasiajay553.github.io/Clearx/"
   },
   {
-    title: "Face Recognition System",
-    description: "Built a real-time face recognition system using OpenCV and the face_recognition library. Enabled automatic user identification via webcam feed with face encoding and matching. Useful for security and attendance applications.",
-    technologies: ["Python", "OpenCV", "Machine Learning"],
+    title: "Real-Time Face Recognition System",
+    description: "An AI/ML-driven real-time face recognition application designed for high-accuracy identification. The project encompassed rigorous data validation and strategic research to ensure practical real-world applicability.\n\n• Developed a robust real-time facial recognition system to process and analyze visual data efficiently.\n• Validated system data outputs systematically to maximize identification accuracy and overall reliability.\n• Conducted extensive research on product-market fit to align technical capabilities with industry needs.",
+    technologies: ["Python", "OpenCV"],
     image: "/face.jpeg",
     githubUrl: "https://github.com/Kasiajay553/face_recognition_project",
     liveUrl: "https://github.com/Kasiajay553/face_recognition_project"
   },
   {
-    title: "Child Therapy – Mental Wellness Platform",
-    description: "A full-stack mental wellness platform to connect children with licensed therapists. Includes secure authentication, session bookings, real-time chat, and therapist dashboards. Prioritized accessibility, emotional tone, and privacy using JWT and animations with Framer Motion.",
-    technologies: ["React", "Tailwind CSS", "Node.js", "Express", "MongoDB", "JWT"],
+    title: "Child Therapy Services Website",
+    description: "A responsive and accessible hospital website custom-built to fulfill specialized client requirements. The platform improves key patient metrics by streamlining the intake process through an integrated client booking system.\n\n• Translated complex client requirements into functional, accessible web interfaces.\n• Designed and implemented a comprehensive client booking system to enhance scheduling efficiency.\n• Managed the end-to-end development lifecycle to ensure high-quality delivery and improved user engagement.",
+    technologies: ["HTML5", "CSS3", "JavaScript", "Figma"],
     image: "/childtherapy.jpeg",
     githubUrl: "https://github.com/Kasiajay553/FullStackProject",
     liveUrl: "https://vignanchildthearpy.netlify.app/"
   },
   {
     title: "Personal Portfolio Website",
-    description:
-      "Built a fully responsive and modern personal portfolio using React, TypeScript, Tailwind CSS, and Framer Motion. Showcases projects, skills, education, and achievements in a visually appealing layout with smooth scroll, reusable components, and animations.",
+    description: "Built a fully responsive and modern personal portfolio using React, TypeScript, Tailwind CSS, and Framer Motion. Showcases projects, skills, education, and achievements in a visually appealing layout with smooth scroll, reusable components, and animations.",
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion"],
     image: "/portfolio.jpeg",
-    githubUrl: "https://github.com/Kasiajay553/Portfolio", // change if needed
-    liveUrl: "https://portfolio-liart-nine-54.vercel.app/" // change if different
+    githubUrl: "https://github.com/Kasiajay553/Portfolio",
+    liveUrl: "https://portfolio-liart-nine-54.vercel.app/"
   }
-
-
 ];
 
 const ProjectsSection: React.FC = () => {
@@ -73,7 +70,7 @@ const ProjectsSection: React.FC = () => {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-blue-400">{project.title}</h3>
-                <p className="text-sm text-gray-300 mb-4">{project.description}</p>
+                <p className="text-sm text-gray-300 mb-4 whitespace-pre-line">{project.description}</p>
 
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.technologies.map((tech) => (

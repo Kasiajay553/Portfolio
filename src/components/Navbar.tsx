@@ -26,23 +26,22 @@ const Navbar: React.FC = () => {
   ];
 
   return (
-    <motion.nav 
+    <motion.nav
       initial={{ y: -100 }}
       animate={{ y: 0 }}
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-black/90 backdrop-blur-md' : 'bg-transparent'
-      }`}
+      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${scrolled ? 'bg-black/90 backdrop-blur-md' : 'bg-transparent'
+        }`}
     >
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <motion.div 
+          <motion.div
             whileHover={{ scale: 1.05 }}
             className="flex items-center space-x-2"
           >
             <User size={24} className="text-blue-500" />
             <span className="text-xl font-bold">T.K.N.V.Ajay Kumar</span>
           </motion.div>
-          
+
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
             {navItems.map((item) => (
@@ -56,11 +55,11 @@ const Navbar: React.FC = () => {
               </motion.a>
             ))}
           </div>
-          
+
           <div className="hidden md:flex items-center space-x-4">
             <motion.a
-              href="/AJAY_RESUME.pdf"
-              download
+              href="/java_react.pdf"
+              download="AJAY_RESUME.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition-colors flex items-center space-x-2"
@@ -69,7 +68,7 @@ const Navbar: React.FC = () => {
               <span>Resume</span>
             </motion.a>
           </div>
-          
+
           {/* Mobile Menu Button */}
           <button
             onClick={() => setIsOpen(!isOpen)}
@@ -78,10 +77,10 @@ const Navbar: React.FC = () => {
             {isOpen ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
-        
+
         {/* Mobile Navigation */}
         {isOpen && (
-          <motion.div 
+          <motion.div
             initial={{ opacity: 0, y: -20 }}
             animate={{ opacity: 1, y: 0 }}
             className="md:hidden mt-4 pb-4"
@@ -97,8 +96,8 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <a
-              href="/KASI_AJAY_RESUME.pdf"
-              download
+              href="/java_react.pdf"
+              download="AJAY_RESUME.pdf"
               className="inline-flex items-center space-x-2 mt-4 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition-colors"
             >
               <Download size={16} />

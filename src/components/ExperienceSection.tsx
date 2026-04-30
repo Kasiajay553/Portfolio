@@ -5,16 +5,36 @@ import { motion } from 'framer-motion';
 const ExperienceSection: React.FC = () => {
   const experiences = [
     {
-      title: "Web Developer",
-      company: "InternPe- MSME",
-      period: "2024",
-      location:"Remote",
+      title: "Java Developer Intern",
+      company: "TechDenali",
+      period: "Feb 2026 - Apr 2026",
+      location: "Offline",
       description: [
-        " Focusing on web development projects. Collaborating with teams to design and implement web solutions. Gaining hands-on experience in front-end and back-end development.",
-
+        "Completed a rigorous offline internship focused on enterprise-level application development within an Agile environment.",
+        "Applied Object-Oriented Programming principles and Core Java concepts to build and optimize backend processing logic.",
+        "Collaborated with senior developers during Daily Stand-ups and Sprint Planning to manage data structures, debug code, and ensure efficient application performance."
       ]
     },
-    
+    {
+      title: "Web Developer Intern",
+      company: "Internpe",
+      period: "May 2024 - Jun 2024",
+      location: "Remote",
+      description: [
+        "Collaborated with cross-functional teams (Product, QA, UX) to help define project requirements and implement web solutions.",
+        "Gained hands-on experience bridging front-end React interfaces with backend systems, ensuring smooth product delivery."
+      ]
+    },
+    {
+      title: "UI/UX Designer",
+      company: "CodeSoft",
+      period: "Feb 2024 - Mar 2024",
+      location: "Remote",
+      description: [
+        "Translated user needs into interactive UI prototypes using Figma.",
+        "Collaborated with design teams to enhance user experience and presented solutions that improved design workflow efficiency by 25%."
+      ]
+    }
   ];
 
   return (
