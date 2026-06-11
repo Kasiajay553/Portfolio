@@ -38,7 +38,7 @@ const projects = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion"],
     image: "/portfolio.jpeg",
     githubUrl: "https://github.com/Kasiajay553/Portfolio",
-    liveUrl: "https://ajay-prortfolio.netlify.app/"
+    liveUrl: "https://childrntherapy.netlify.app/"
   }
 ];
 
