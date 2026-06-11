@@ -30,7 +30,7 @@ const projects = [
     technologies: ["HTML5", "CSS3", "JavaScript", "Figma"],
     image: "/childtherapy.jpeg",
     githubUrl: "https://github.com/Kasiajay553/vignan-schildtherapy-",
-    liveUrl: "https://childrntherapy.netlify.app//"
+    liveUrl: "https://childrntherapy.netlify.app/"
   },
   {
     title: "Personal Portfolio Website",
