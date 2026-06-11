@@ -29,8 +29,8 @@ const projects = [
     description: "A responsive and accessible hospital website custom-built to fulfill specialized client requirements. The platform improves key patient metrics by streamlining the intake process through an integrated client booking system.\n\n• Translated complex client requirements into functional, accessible web interfaces.\n• Designed and implemented a comprehensive client booking system to enhance scheduling efficiency.\n• Managed the end-to-end development lifecycle to ensure high-quality delivery and improved user engagement.",
     technologies: ["HTML5", "CSS3", "JavaScript", "Figma"],
     image: "/childtherapy.jpeg",
-    githubUrl: "https://github.com/Kasiajay553/FullStackProject",
-    liveUrl: "https://vignanchildthearpy.netlify.app/"
+    githubUrl: "https://github.com/Kasiajay553/vignan-schildtherapy-",
+    liveUrl: "https://childrntherapy.netlify.app//"
   },
   {
     title: "Personal Portfolio Website",
