@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
             className="flex items-center space-x-2"
           >
             <User size={24} className="text-blue-500" />
-            <span className="text-xl font-bold">T.K.N.V. Ajay Kumar</span>
+            <span className="text-xl font-bold">T.K.N.V.Ajay Kumar</span>
           </motion.div>
 
           {/* Desktop Navigation */}

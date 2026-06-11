@@ -22,24 +22,24 @@ const ContactSection: React.FC = () => {
     e.preventDefault();
 
     emailjs.send(
-      'service_ajay',       
-      'template_ajay',      
+      'service_ajay',
+      'template_ajay',
       {
         name: formData.name,
         email: formData.email,
         subject: formData.subject,
         message: formData.message
       },
-      'oPP6u3_aesnqSHpXh'        
+      'oPP6u3_aesnqSHpXh'
     )
-    .then(() => {
-      console.log("Email sent!");
-      setSubmitted(true);
-      setFormData({ name: '', email: '', subject: '', message: '' });
-    })
-    .catch((error) => {
-      console.error("Error:", error);
-    });
+      .then(() => {
+        console.log("Email sent!");
+        setSubmitted(true);
+        setFormData({ name: '', email: '', subject: '', message: '' });
+      })
+      .catch((error) => {
+        console.error("Error:", error);
+      });
   };
 
   const contactInfo = [
@@ -50,7 +50,7 @@ const ContactSection: React.FC = () => {
 
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "https://github.com/Kasiajay553", color: "hover:text-gray-300" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/kasi-ajaytekkali-94042b28a", color: "hover:text-blue-400" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/kasi-ajay-tekkali-94042b28a/", color: "hover:text-blue-400" },
     { icon: FaInstagram, label: "Instagram", href: "https://instagram.com/tkasiajay", color: "hover:text-pink-500" }
   ];
 
