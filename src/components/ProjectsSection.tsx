@@ -38,7 +38,7 @@ const projects = [
     technologies: ["React", "TypeScript", "Tailwind CSS", "Vite", "Framer Motion"],
     image: "/portfolio.jpeg",
     githubUrl: "https://github.com/Kasiajay553/Portfolio",
-    liveUrl: "https://portfolio-liart-nine-54.vercel.app/"
+    liveUrl: "https://ajay-prortfolio.netlify.app/"
   }
 ];
 
