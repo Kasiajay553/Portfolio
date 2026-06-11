@@ -42,15 +42,13 @@ const AboutSection: React.FC = () => {
             <h3 className="text-2xl font-bold text-blue-500">Full Stack Developer, Software Deveploper, UI/UX Designer</h3>
 
             <p className="text-gray-300 text-lg leading-relaxed">
-              Computer Science Engineering student with a strong foundation in programming, software development, and problem solving.
-              Proficient in designing and developing scalable applications while optimizing system performance. 
-              Adept at working in dynamic, agile environments and eager to expand knowledge of emerging technologies.
+              Results-driven Associate Software Engineer with hands-on experience in full-stack development using Core Java, React.js, Python, and SQL. Proven ability to write clean, maintainable code across backend and frontend applications, integrate REST APIs, and work collaboratively in Agile teams. National Hackathon Winner (1st of 120 teams). Eager to contribute to enterprise-grade product development and grow within a fast-paced, AI-powered engineering environment.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div className="flex items-center space-x-3">
                 <MapPin size={20} className="text-blue-500" />
-                <span className="text-gray-300">visakhapatnam, India</span>
+                <span className="text-gray-300">Anakapalle, Andhra Pradesh</span>
               </div>
               <div className="flex items-center space-x-3">
                 <Calendar size={20} className="text-blue-500" />
@@ -60,8 +58,8 @@ const AboutSection: React.FC = () => {
 
             <div className="pt-6">
               <motion.a
-                href="/java_react.pdf"
-                download="AJAY_RESUME.pdf"
+                href="/Heizen_resume.pdf"
+                download="Heizen_resume.pdf"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 className="inline-flex items-center space-x-2 bg-blue-600 text-white px-6 py-3 rounded-full font-medium hover:bg-blue-700 transition-colors"

@@ -45,12 +45,12 @@ const ContactSection: React.FC = () => {
   const contactInfo = [
     { icon: Mail, label: "Email", value: "tkasiajay@gmail.com", href: "mailto:tkasiajay@gmail.com" },
     { icon: Phone, label: "Phone", value: "+91 9059173871", href: "tel:+919059173871" },
-    { icon: MapPin, label: "Location", value: "Visakhapatnam, India", href: "#" }
+    { icon: MapPin, label: "Location", value: "Anakapalle, Andhra Pradesh", href: "#" }
   ];
 
   const socialLinks = [
     { icon: Github, label: "GitHub", href: "https://github.com/Kasiajay553", color: "hover:text-gray-300" },
-    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/kasi-ajay-tekkali-94042b28a/", color: "hover:text-blue-400" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/kasi-ajaytekkali-94042b28a", color: "hover:text-blue-400" },
     { icon: FaInstagram, label: "Instagram", href: "https://instagram.com/tkasiajay", color: "hover:text-pink-500" }
   ];
 

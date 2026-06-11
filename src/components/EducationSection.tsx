@@ -33,25 +33,25 @@ const EducationSection: React.FC = () => {
 
   const certifications = [
     {
-      name: "CCNA-M1, CCNA-M2, Python Essentials 1&2, Cybersecurity  Essentials ",
+      name: "ServiceNow Certified System Administrator (CSA)",
+      link: "https://drive.google.com/drive/folders/1_eovqdtlMEKZoNvSQ8DNF7wGFAFwarp1?usp=sharing"
+    },
+    {
+      name: "Cisco Python Essentials 1 & 2",
       link: "https://drive.google.com/drive/folders/1Xn2pdNCsH-3kFUxXHusgCDObgOlGacTH?usp=drive_link"
     },
     {
-      name: "Relational Database Basics – IBM ",
+      name: "EDX Relational DB Basics",
       link: "https://drive.google.com/file/d/1q-oKPz8aD8xpcaN8inLGw6WAWCccVoGG/view?usp=sharingg"
     },
     {
-      name: "Front-End Web Development – Infosys Springboard ",
+      name: "Infosys Front-End Web Developer",
       link: "https://drive.google.com/file/d/1XeKGP_FiQ9QjjWOASxFmotMMkpfj-sPK/view?usp=sharing"
     },
     {
-      name: "AWS Machine Learning Foundations – Eduskills ",
+      name: "AWS Machine Learning Foundations – Eduskills",
       link: "https://drive.google.com/file/d/1PY0UPxiSEOAxOPWgzuPPRr5upCo7DU5a/view?usp=sharing"
-    },
-    {
-      name: "Micro & Certified System Administrator – Servicenow ",
-      link: "https://drive.google.com/drive/folders/1_eovqdtlMEKZoNvSQ8DNF7wGFAFwarp1?usp=sharing"
-    },
+    }
   ];
 
   const skills = [

@@ -39,7 +39,7 @@ const Navbar: React.FC = () => {
             className="flex items-center space-x-2"
           >
             <User size={24} className="text-blue-500" />
-            <span className="text-xl font-bold">T.K.N.V.Ajay Kumar</span>
+            <span className="text-xl font-bold">T.K.N.V. Ajay Kumar</span>
           </motion.div>
 
           {/* Desktop Navigation */}
@@ -58,8 +58,8 @@ const Navbar: React.FC = () => {
 
           <div className="hidden md:flex items-center space-x-4">
             <motion.a
-              href="/java_react.pdf"
-              download="AJAY_RESUME.pdf"
+              href="/Heizen_resume.pdf"
+              download="Heizen_resume.pdf"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition-colors flex items-center space-x-2"
@@ -96,8 +96,8 @@ const Navbar: React.FC = () => {
               </a>
             ))}
             <a
-              href="/java_react.pdf"
-              download="AJAY_RESUME.pdf"
+              href="/Heizen_resume.pdf"
+              download="Heizen_resume.pdf"
               className="inline-flex items-center space-x-2 mt-4 bg-blue-600 text-white px-4 py-2 rounded-full text-sm font-medium hover:bg-blue-700 transition-colors"
             >
               <Download size={16} />

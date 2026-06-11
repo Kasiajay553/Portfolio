@@ -3,8 +3,9 @@ import { Trophy } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 const achievements = [
-  "Winner of SUS Hacks Hackathon for developing a web platform for selling near-expiry products, promoting sustainability.",
-  "2-Star Coder on CodeChef with a peak rating of 1548, reflecting consistent competitive programming performance.",
+  "Hackathon Winner -- SUSHACKS: Secured 1st place out of 120 teams and 480+ participants by designing and delivering an innovative full-stack software solution under pressure.",
+  "CodeChef 3-Star: Demonstrated strong problem-solving and algorithmic thinking through consistent competitive programming performance.",
+  "Student Activity Counsellor (SAC), VIIT: Led coordination of cultural and technical events, demonstrating strong communication, ownership, and team collaboration skills.",
   "Achieved a competitive LeetCode rating of 1606, demonstrating strong problem-solving skills in data structures and algorithms.",
   "Participated in Worthy Hack hackathon and worked on a Service Producers Identifier project.",
   "Participated in Synapse ML Hackathon and achieved 91% accuracy in a machine learning regression task."

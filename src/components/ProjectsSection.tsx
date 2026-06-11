@@ -4,20 +4,25 @@ import { motion } from 'framer-motion';
 
 const projects = [
   {
-    title: "CLEARX - Ecommerce Platform",
-    description: "A comprehensive ecommerce platform engineered to address the $18B+ retail food waste challenge. The system seamlessly connects retailers, customers, and delivery agents to optimize resource allocation and minimize waste.\n\n• Developed scalable core business logic utilizing object-oriented programming principles to manage multi-user workflows.\n• Designed and implemented responsive, interactive user interface components for an intuitive user experience.\n• Integrated front-end interfaces with backend processing to ensure efficient and reliable data management.",
-    technologies: ["Core Java", "React.js", "CSS3", "HTML5"],
+    title: "CLEARX - E-Commerce Platform",
+    description: "Designed and built a full-stack platform addressing $18B+ retail food waste, implementing REST API-driven workflows connecting retailers, customers, and delivery agents.\n\n• Developed a responsive React.js frontend and structured scalable backend logic in Core Java.\n• Performed end-to-end testing to ensure reliability before deployment.",
+    technologies: ["Core Java", "React.js", "REST APIs", "HTML5", "CSS3", "JavaScript"],
     image: "/E-commerce.jpeg",
     githubUrl: "https://github.com/Kasiajay553/Clearx",
     liveUrl: "https://kasiajay553.github.io/Clearx/"
   },
   {
+    title: "Student Management System",
+    description: "Built a standalone application with full CRUD operations via MySQL/JDBC, automating student registration, grade tracking, and record management with clean OOP architecture.",
+    technologies: ["Core Java", "MySQL", "JDBC"],
+    githubUrl: "https://github.com/Kasiajay553/Student-Management-System"
+  },
+  {
     title: "Real-Time Face Recognition System",
-    description: "An AI/ML-driven real-time face recognition application designed for high-accuracy identification. The project encompassed rigorous data validation and strategic research to ensure practical real-world applicability.\n\n• Developed a robust real-time facial recognition system to process and analyze visual data efficiently.\n• Validated system data outputs systematically to maximize identification accuracy and overall reliability.\n• Conducted extensive research on product-market fit to align technical capabilities with industry needs.",
+    description: "Developed a real-time face recognition pipeline in Python/OpenCV.\n\n• Validated identification accuracy through structured data output testing.\n• Conducted product-market research to ensure practical application.",
     technologies: ["Python", "OpenCV"],
     image: "/face.jpeg",
-    githubUrl: "https://github.com/Kasiajay553/face_recognition_project",
-    liveUrl: "https://github.com/Kasiajay553/face_recognition_project"
+    githubUrl: "https://github.com/Kasiajay553/face_recognition_project"
   },
   {
     title: "Child Therapy Services Website",
@@ -62,11 +67,18 @@ const ProjectsSection: React.FC = () => {
               className="bg-gray-800 rounded-xl overflow-hidden shadow-lg group"
             >
               <div className="h-48 overflow-hidden">
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500"
-                />
+                {project.image ? (
+                  <img
+                    src={project.image}
+                    alt={project.title}
+                    className="w-full h-full object-cover transform group-hover:scale-105 transition duration-500"
+                  />
+                ) : (
+                  <div className="w-full h-full bg-gradient-to-br from-blue-900/40 to-purple-900/40 flex flex-col items-center justify-center border-b border-gray-800">
+                    <span className="text-5xl mb-2">📁</span>
+                    <span className="text-xs text-gray-400 font-medium tracking-wider uppercase">Database Project</span>
+                  </div>
+                )}
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold mb-3 text-blue-400">{project.title}</h3>
@@ -84,26 +96,30 @@ const ProjectsSection: React.FC = () => {
                 </div>
 
                 <div className="flex space-x-4">
-                  <motion.a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.1 }}
-                    className="flex items-center space-x-1 text-gray-400 hover:text-white"
-                  >
-                    <Github size={16} />
-                    <span className="text-sm">Code</span>
-                  </motion.a>
-                  <motion.a
-                    href={project.liveUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    whileHover={{ scale: 1.1 }}
-                    className="flex items-center space-x-1 text-gray-400 hover:text-blue-400"
-                  >
-                    <ExternalLink size={16} />
-                    <span className="text-sm">Live Demo</span>
-                  </motion.a>
+                  {project.githubUrl && (
+                    <motion.a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      whileHover={{ scale: 1.1 }}
+                      className="flex items-center space-x-1 text-gray-400 hover:text-white"
+                    >
+                      <Github size={16} />
+                      <span className="text-sm">Code</span>
+                    </motion.a>
+                  )}
+                  {project.liveUrl && (
+                    <motion.a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      whileHover={{ scale: 1.1 }}
+                      className="flex items-center space-x-1 text-gray-400 hover:text-blue-400"
+                    >
+                      <ExternalLink size={16} />
+                      <span className="text-sm">Live Demo</span>
+                    </motion.a>
+                  )}
                 </div>
               </div>
             </motion.div>

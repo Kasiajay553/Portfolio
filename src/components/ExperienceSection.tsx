@@ -10,29 +10,31 @@ const ExperienceSection: React.FC = () => {
       period: "Feb 2026 - Apr 2026",
       location: "Offline",
       description: [
-        "Completed a rigorous offline internship focused on enterprise-level application development within an Agile environment.",
-        "Applied Object-Oriented Programming principles and Core Java concepts to build and optimize backend processing logic.",
-        "Collaborated with senior developers during Daily Stand-ups and Sprint Planning to manage data structures, debug code, and ensure efficient application performance."
+        "Wrote clean, maintainable backend code using Core Java OOP principles in an Agile environment, contributing to on-time feature delivery across multiple sprint milestones.",
+        "Participated in code reviews and Daily Stand-ups with senior engineers, accelerating defect resolution and improving overall code quality across the codebase.",
+        "Built and deployed scalable backend modules with optimized data structures, strengthening application performance and long-term maintainability."
       ]
     },
     {
       title: "Web Developer Intern",
-      company: "Internpe",
+      company: "InternPe",
       period: "May 2024 - Jun 2024",
       location: "Remote",
       description: [
-        "Collaborated with cross-functional teams (Product, QA, UX) to help define project requirements and implement web solutions.",
-        "Gained hands-on experience bridging front-end React interfaces with backend systems, ensuring smooth product delivery."
+        "Developed responsive frontend interfaces with React.js and integrated REST APIs, collaborating with Product, QA, and UX teams from requirements through to deployment.",
+        "Bridged frontend components with backend systems, reducing integration issues and ensuring smooth, tested end-to-end product delivery.",
+        "Contributed to debugging, testing, and technical requirement definitions, improving team alignment and reducing rework in the development lifecycle."
       ]
     },
     {
-      title: "UI/UX Designer",
+      title: "UI/UX Designer Intern",
       company: "CodeSoft",
       period: "Feb 2024 - Mar 2024",
       location: "Remote",
       description: [
-        "Translated user needs into interactive UI prototypes using Figma.",
-        "Collaborated with design teams to enhance user experience and presented solutions that improved design workflow efficiency by 25%."
+        "Translated client requirements and user research into structured Figma prototypes, improving design workflow efficiency by 25% and accelerating developer handoff.",
+        "Collaborated with cross-functional teams to iterate on designs, ensuring UX consistency and aligning product features with end-user needs.",
+        "Communicated design decisions clearly to stakeholders, enabling faster sign-off and on-schedule feature delivery."
       ]
     }
   ];

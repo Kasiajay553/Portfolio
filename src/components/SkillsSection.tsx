@@ -12,6 +12,8 @@ import {
   SiJavascript, SiHtml5, SiCss3, SiReact, SiMysql, SiGit, SiSpringboot, SiFigma, SiIntellijidea
 } from 'react-icons/si';
 
+import { VscVscode } from 'react-icons/vsc';
+
 import { TbBrandCpp } from 'react-icons/tb';
 import { DiPython, DiJava } from 'react-icons/di';
 
@@ -34,7 +36,9 @@ const skillData = [
       { name: "React.js", icon: <SiReact className="text-cyan-400" /> },
       { name: "HTML5", icon: <SiHtml5 className="text-orange-500" /> },
       { name: "CSS3", icon: <SiCss3 className="text-blue-500" /> },
-      { name: "REST APIs", icon: <span className="text-white">🔗</span> }
+      { name: "REST APIs", icon: <span className="text-white">🔗</span> },
+      { name: "Microservices", icon: <FaNetworkWired className="text-purple-400" /> },
+      { name: "JDBC", icon: <FaDatabase className="text-green-400" /> }
     ]
   },
   {
@@ -46,19 +50,22 @@ const skillData = [
       { name: "Git", icon: <SiGit className="text-orange-600" /> },
       { name: "GitHub", icon: <FaGithub className="text-white" /> },
       { name: "IntelliJ IDEA", icon: <SiIntellijidea className="text-blue-500" /> },
+      { name: "VS Code", icon: <VscVscode className="text-blue-500" /> },
       { name: "ServiceNow", icon: <FaTools className="text-gray-300" /> }
     ]
   },
-  /*{
-    title: "Core Java Concepts",
+  {
+    title: "Core Concepts",
     icon: <FaNetworkWired className="text-purple-400 text-2xl" />,
     skills: [
       { name: "OOP", icon: <span className="text-white">⚙️</span> },
+      { name: "Data Structures & Algorithms", icon: <span className="text-white">🧠</span> },
       { name: "Collections Framework", icon: <span className="text-white">📚</span> },
       { name: "Multithreading", icon: <span className="text-white">🔄</span> },
-      { name: "Exception Handling", icon: <span className="text-white">⚠️</span> }
+      { name: "Exception Handling", icon: <span className="text-white">⚠️</span> },
+      { name: "Agile/Scrum", icon: <span className="text-white">📋</span> }
     ]
-  },*/
+  },
   {
     title: "UI/UX & Soft Skills",
     icon: <FaTools className="text-yellow-400 text-2xl" />,

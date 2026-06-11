@@ -106,7 +106,7 @@ const HeroSection: React.FC = () => {
             className="text-gray-400 hover:text-white transition-transform hover:scale-110">
             <Github size={24} />
           </a>
-          <a href="https://linkedin.com/in/kasi-ajay-tekkali-94042b28a/" target="_blank" rel="noopener noreferrer"
+          <a href="https://www.linkedin.com/in/kasi-ajaytekkali-94042b28a" target="_blank" rel="noopener noreferrer"
             className="text-gray-400 hover:text-blue-400 transition-transform hover:scale-110">
             <Linkedin size={24} />
           </a>

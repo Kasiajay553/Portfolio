@@ -28,7 +28,7 @@ const Footer: React.FC = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
           >
-            <h3 className="text-2xl font-bold text-blue-500 mb-4">Tekkali Kasi Naga venata Ajay Kumar</h3>
+            <h3 className="text-2xl font-bold text-blue-500 mb-4">Tekkali Kasi Naga Venkata Ajay Kumar</h3>
             <p className="text-gray-400 mb-4">
               Full Stack Developer passionate about creating innovative web solutions 
               and building scalable applications.
@@ -68,7 +68,7 @@ const Footer: React.FC = () => {
             <div className="space-y-2 text-gray-400">
               <p>📧 tkasiajay@gmail.com</p>
               <p>📱 +91 9059173871</p>
-              <p>📍 Visakhapatnam, India</p>
+              <p>📍 Anakapalle, Andhra Pradesh</p>
             </div>
           </motion.div>
         </div>
@@ -81,7 +81,7 @@ const Footer: React.FC = () => {
             transition={{ duration: 0.8 }}
             className="text-gray-400 text-sm flex items-center"
           >
-            Made with <Heart size={16} className="text-red-500 mx-1" /> by T.K.N.V.Ajay Kumar
+            Made with <Heart size={16} className="text-red-500 mx-1" /> by T.K.N.V. Ajay Kumar
           </motion.p>
         
         </div>
